@@ -154,21 +154,6 @@ strong /* Markdown **strong** or __strong__ */
 
 /* ---- Links (anchors) ---- */
 
-a /* All links */
-    {
-    /* Keep links clean. On screen, they are colored; in print, they do nothing anyway. */
-    text-decoration: none;
-    }
-
-@media screen
-    {
-    a:hover
-        {
-        /* On hover, we indicate a bit more that it is a link. */
-        text-decoration: underline;
-        }
-    }
-
 @media print
     {
     a   {
