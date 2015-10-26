@@ -1,7 +1,12 @@
 **Q: What is "vimrc"?**
 
-A: The vimrc file is just a series of `:` commands that get run when you start
-Vim. This is what you use for permanently changing settings.
+A: The vimrc file is what you use for permanently changing settings.
+
+**Q: How do I use it?**
+
+A: It's literally just a series of `:` commands that get run when you start
+Vim. Put whatever you want in it. One command per line, and the `:` is
+optional. Lines that start with `"` are comments.
 
 **Q: Sounds good, where is my vimrc file?**
 
@@ -46,8 +51,8 @@ might want to use a mapping or two to make this easier.
 
 (What's a mapping? `:imap x yz` means that whenever you press `x` in insert
 mode, Vim will act like you pressed `yz`. So you know, you usually want
-`:inoremap`, which is non-recursive. See the Vim `:help key-mapping` or any of
-various online resources for more.)
+`:inoremap`, which is non-recursive. See `:help key-mapping` or any of various
+online resources for more.)
 
 Here's one example of a pair of mappings you can use to make getting out of
 insert mode easier. (On a standard QWERTY keyboard, this is really good,
