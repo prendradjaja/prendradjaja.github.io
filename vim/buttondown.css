@@ -104,6 +104,7 @@ blockquote
 
 li /* All list items */
     {
+        margin-top: 0.3em;
     }
 
 li > p /* Loosely spaced list item */
