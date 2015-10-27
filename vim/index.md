@@ -3,3 +3,5 @@
 - **After the workshop:**
     - [Learning resources](./resources.html)
     - [vimrc things](./vimrc.html)
+
+If you want them, here are the [slides.](./slides.pdf)
